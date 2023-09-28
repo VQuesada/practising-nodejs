@@ -22,3 +22,13 @@ process.on('exit', () => {
 // Nos dice desde que carpeta estamos ejecutando el proceso
 const currentWorkingDirectory = process.cwd()
 console.log(currentWorkingDirectory)
+
+// 5. Used platform
+// Nos dice en que plataforma estamos ejecutando el proceso
+const platform = process.platform
+console.log(platform)
+
+// 6. Environment variables
+// Nos da las variables de entorno del proceso
+const env = process.env
+console.log(env)

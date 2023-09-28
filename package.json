@@ -1,0 +1,28 @@
+{
+  "name": "practising-nodejs",
+  "version": "1.0.0",
+  "description": "Practising Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VQuesada/practising-nodejs.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "Node.js",
+    "javascript"
+  ],
+  "author": "VQuesada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VQuesada/practising-nodejs/issues"
+  },
+  "homepage": "https://github.com/VQuesada/practising-nodejs#readme",
+  "dependencies": {
+    "picocolors": "1.0.0"
+  }
+}

@@ -24,5 +24,11 @@
   "homepage": "https://github.com/VQuesada/practising-nodejs#readme",
   "dependencies": {
     "picocolors": "1.0.0"
+  },
+  "devDependencies": {
+    "standard": "17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
   }
 }

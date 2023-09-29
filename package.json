@@ -4,7 +4,9 @@
   "description": "Practising Node.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon 2.httpServer/1.http.js"
+    "dev1": "nodemon 2.httpServer/1.http.js",
+    "dev2": "nodemon 2.httpServer/2.routing.js",
+    "dev3": "nodemon 2.httpServer/3.express.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,7 @@
   },
   "homepage": "https://github.com/VQuesada/practising-nodejs#readme",
   "dependencies": {
+    "express": "4.18.2",
     "picocolors": "1.0.0"
   },
   "devDependencies": {

@@ -1,0 +1,18 @@
+### Recuperar informacion del pokemon ditto
+GET http://localhost:3069/pokemon/ditto
+
+### Para crear un Pokemon
+POST http://localhost:3069/pokemon
+Content-Type: application/json
+
+{
+		"name": "charizard",
+		"type": "fire/flying",
+		"level": 50,
+		"moves": [
+			"flamethrower",
+			"fire blast",
+			"air slash",
+			"dragon pulse"
+		]
+}
